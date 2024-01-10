@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style Changer</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="block">
+        <form id="form">
+            <label class="width" for="width">
+                <h3>Width</h3>
+                <input id="width" type="number" placeholder="100"><br>
+            </label>
+            <label class="radius" for="radius">
+                <h3>Radius</h3>
+                <input id="radius" type="number" placeholder="100"><br>
+            </label>
+            <label class="height" for="height">
+                <h3>Height</h3>
+                <input id="height" type="number" placeholder="100"><br>
+            </label>
+            <label class="color" for="color">
+                <h3>Color</h3>
+                <input id="color" type="text" placeholder="yellow"><br>
+            </label>
+            <button id="ok" class="enter_btn">OK</button>
+        </form>
+    </div>
+    <div id="frame">
+        <div id="result">
+            <div class="text"></div>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
